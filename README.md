@@ -1,4 +1,4 @@
-# Living Off the Pipeline (LOTP)
+# Living Off Security Tools (LOST)
 [![boostsecurityio - lotp](https://img.shields.io/static/v1?label=boostsecurityio&message=lotp&color=blue&logo=github)](https://github.com/0xAnalyst/Project-Lost "Go to GitHub repo")
 [![stars - lotp](https://img.shields.io/github/stars/0xAnalyst/Project-Lost?style=social)](https://github.com/0xAnalyst/Project-Lost)
 [![forks - lotp](https://img.shields.io/github/forks/0xAnalyst/Project-Lost?style=social)](https://github.com/0xAnalyst/Project-Lost)
@@ -9,7 +9,7 @@
 
 # Introduction
 
-The idea of the LOTP project is to inventory how development tools (typically CLIs), commonly used in CI/CD pipelines, have lesser-known RCE-By-Design features ("foot guns"), or more generally, can be used to achieve arbitrary code execution by running on untrusted code changes or following a workflow injection.
+Living Off The Land Security Tools is a curated list of Security Tools used by adversaries to bypass security controls and carry out attacks. 
 
 # Contributions
 

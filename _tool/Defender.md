@@ -1,5 +1,5 @@
 ---
-title: checkov
+title: Defender
 tags:
   - cli
   - config-file

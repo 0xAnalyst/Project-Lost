@@ -1,5 +1,5 @@
 ---
-title: bundler
+title: OSQuery
 tags:
 - cli
 - eval-sh

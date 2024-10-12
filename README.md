@@ -16,7 +16,7 @@ We welcome contributions submitted as `Pull Requests` with new tool contribution
 
 # License
 
-Released under [Apache 2.0](/LICENSE) by [@boostsecurityio](https://github.com/boostsecurityio).
+Released under [Apache 2.0](/LICENSE).
 
 ---
 

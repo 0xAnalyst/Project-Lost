@@ -1,9 +1,8 @@
 ---
 title: Defender
 tags:
-  - cli
-  - config-file
-  - eval-py
+  - Enum
+  - Exec
 references: 
 - https://github.com/bridgecrewio/checkov?tab=readme-ov-file#configuration-using-a-config-file
 files: [.checkov.yml,.checkov.yaml]

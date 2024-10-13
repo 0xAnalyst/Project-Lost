@@ -17,3 +17,5 @@ Velociraptor is a tool for collecting host based state information using The Vel
 
 
 **Execute Powershell**
+
+```velociraptor client collect --artifact "Windows.System.PowerShell" --parameters command="Get-Process" --client {client_id}```

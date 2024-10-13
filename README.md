@@ -1,5 +1,5 @@
 # Living Off Security Tools (LOST)
-[![0xAnalyst - LOST](https://img.shields.io/static/v1?label=0xanalyst&message=lotp&color=blue&logo=github)](https://github.com/0xAnalyst/Project-Lost "Go to GitHub repo")
+[![0xAnalyst - LOST](https://img.shields.io/static/v1?label=0xanalyst&message=Project-Lost&color=blue&logo=github)](https://github.com/0xAnalyst/Project-Lost "Go to GitHub repo")
 [![stars - LOST](https://img.shields.io/github/stars/0xAnalyst/Project-Lost?style=social)](https://github.com/0xAnalyst/Project-Lost)
 [![forks - LOST](https://img.shields.io/github/forks/0xAnalyst/Project-Lost?style=social)](https://github.com/0xAnalyst/Project-Lost)
 [![issues - LOST](https://img.shields.io/github/issues/0xAnalyst/Project-Lost)](https://github.com/0xAnalyst/Project-Lost/issues)

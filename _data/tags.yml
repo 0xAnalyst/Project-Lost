@@ -4,10 +4,8 @@ Enum:
 Exec:
   docs: |
     Execute commands
-injection:
+C2:
   docs: |
     The tool is exploitable through a workflow injection.
-config-file:
-  docs: |
-    The tool loads a config file that allows code execution.
+
 

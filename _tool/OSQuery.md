@@ -18,7 +18,8 @@ osqueryi --json "SELECT username, description, sid, directory FROM users;"
 
 **Enumerate System Information**
 
-```osqueryi --json "
+```
+osqueryi --json "
 SELECT 'os_version' AS category, * FROM os_version
 UNION ALL
 SELECT 'cpu_info' AS category, * FROM cpu_info

@@ -26,3 +26,7 @@ This project is largely inspired from previous projects such as:
 - https://gtfobins.github.io
 - https://lolbas-project.github.io
 - https://github.com/rotem-cider/cicd-lamb
+- https://boostsecurityio.github.io/lotp/
+# Theme
+I took the theme from the following lol project
+- https://boostsecurityio.github.io/lotp/

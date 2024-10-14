@@ -11,10 +11,13 @@ files: [ 'osqueryi']
 osquery is an operating system instrumentation framework for Windows, OS X (macOS), and Linux. The tools make low-level operating system analytics and monitoring both performant and intuitive..
 
 **Enumerate users**
+
 ```
 osqueryi --json "SELECT username, description, sid, directory FROM users;"
 ```
+
 **Enumerate System Information**
+
 ```osqueryi --json "
 SELECT 'os_version' AS category, * FROM os_version
 UNION ALL

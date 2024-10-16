@@ -7,6 +7,8 @@ references:
 files: []
 ---
 
+Microsoft Defender is a built-in security solution in Windows that offers real-time protection against malware, exploits, and various threats, leveraging cloud-based intelligence and centralized management in enterprise environments.
+
 # List exclusion paths
 
 ## Description

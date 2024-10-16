@@ -1,8 +1,7 @@
 ---
 title: OSQuery
 tags:
-- Enum
-- Exec
+- Discovery
 references: 
 - https://osquery.readthedocs.io/en/latest/
 files: [ 'osqueryi']
@@ -10,14 +9,30 @@ files: [ 'osqueryi']
 
 osquery is an operating system instrumentation framework for Windows, OS X (macOS), and Linux. The tools make low-level operating system analytics and monitoring both performant and intuitive..
 
-**Enumerate users**
+# Enumerate users
 
+## Description
+
+Osquery can be leveraged to query details about local accounts on a system (retrieving usernames, descriptions, security identifiers (SIDs), etc.)
+
+## Simulation
 ```
 osqueryi --json "SELECT username, description, sid, directory FROM users;"
 ```
+## MITRE ATT&CK
 
-**Enumerate System Information**
+T1033 - System Owner/User Discovery
 
+## Detections
+
+
+
+# Enumerate System Information
+## Description
+
+Osquery can be leveraged to gather comprehensive information about a system such as OS verion, CPU and memory details, network interfaces, process, logged-in users and so on.
+
+## Simulation
 ```
 osqueryi --json "
 SELECT 'os_version' AS category, * FROM os_version
@@ -41,3 +56,11 @@ UNION ALL
 SELECT 'system_info' AS category, hostname, cpu_brand, physical_memory FROM system_info;
 "
 ```
+## MITRE ATT&CK
+
+T1082 - System Information Discovery
+T1016 - System Network Configuration Discovery
+T1057 - Process Discovery
+
+## Detections
+

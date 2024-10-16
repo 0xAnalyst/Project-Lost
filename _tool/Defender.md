@@ -6,8 +6,6 @@ tags:
 references: 
 - https://blog.fndsec.net/2024/10/04/uncovering-exclusion-paths-in-microsoft-defender-a-security-research-insight/
 files: []
-path:
-- C:\Program Files\Windows Defender\MpCmdRun.exe
 ---
 
 # List exclusion paths
@@ -22,4 +20,11 @@ Microsoft Defender can be abused to list exclusion paths to avoid detection with
 T1564.012 - Hide Artifacts: File/Path Exclusions
 
 ## Detections
-- test
+```
+DeviceProcessEvents
+| where FileName == "MpCmdRun.exe"
+| where ProcessCommandLine has "-Scan -ScanType 3 -File"
+| where ProcessCommandLine endswith @"|*"
+| where InitiatingProcessUserSID != "S-1-5-18"
+| project Timestamp, DeviceName, InitiatingProcessAccountName, FileName, ProcessCommandLine
+```

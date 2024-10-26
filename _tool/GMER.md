@@ -4,6 +4,7 @@ tags:
   - Defense Evasion
 references: 
 - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a-black-suit-royal-ransomware
+  
 - https://www.kroll.com/en/insights/publications/cyber/royal-ransomware-deep-dive
 files: []
 ---

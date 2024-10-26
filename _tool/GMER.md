@@ -8,13 +8,26 @@ references:
 files: []
 ---
 
-GMER is an application that detects and removes rootkits, it has been misused by ransomware groups, including Play and BlackSuit (Royal), to disable antivirus software and other endpoint defenses, allowing attackers to evade detection and maintain control over infected systems.
-
+GMER is an application that detects and removes rootkits. It scans for:
+```
+hidden processes
+hidden threads
+hidden modules
+hidden services
+hidden files
+hidden disk sectors (MBR)
+hidden Alternate Data Streams
+hidden registry keys
+drivers hooking SSDT
+drivers hooking IDT
+drivers hooking IRP calls
+inline hooks
+```
 
 # Disable Antivirus Software
 
 ## Description
-Ransomware groups exploit GMER to terminate or disable antivirus processes, especially during lateral movement and persistence phases. This tactic helps evade detection by bypassing security defenses that would otherwise alert to ransomware activity.
+Ransomware groups used GMER to terminate or disable antivirus processes, especially during lateral movement and persistence phases. This tactic helps evade detection by bypassing security defenses that would otherwise alert to ransomware activity.
 
 ## Simulation
 ```

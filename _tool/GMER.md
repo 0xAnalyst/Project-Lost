@@ -38,10 +38,5 @@ Ransomware groups used GMER to terminate or disable antivirus processes, especia
 T1562.001 - Impair Defenses: Disable or Modify Tools
 
 ## Detections
-```
-DeviceProcessEvents
-| where FileName == "gmer.exe"
-| where ActionType in ("Process Terminated", "Service Stopped", "System Modification")
-| project Timestamp, DeviceName, InitiatingProcessAccountName, FileName, ActionType
-```
+
 

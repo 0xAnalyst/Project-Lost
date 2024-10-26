@@ -1,4 +1,4 @@
-Enum:
+Enumeration:
   docs: |
     Enumerate users on the system
 Execution:
@@ -6,6 +6,10 @@ Execution:
     Execute commands
 C2:
   docs: |
-    The tool is exploitable through a workflow injection.
+    The tool is used to connect to C2 servers.
+Defense Evasion:
+  docs: |
+    The tool is used to bypass defense.
+    
 
 

@@ -8,7 +8,8 @@ references:
 files: []
 ---
 
-GMER is a legitimate rootkit detection tool that has been misused by ransomware groups, including Play and BlackSuit (Royal), to disable antivirus software and other endpoint defenses, allowing attackers to evade detection and maintain control over infected systems.
+GMER is an application that detects and removes rootkits, it has been misused by ransomware groups, including Play and BlackSuit (Royal), to disable antivirus software and other endpoint defenses, allowing attackers to evade detection and maintain control over infected systems.
+
 
 # Disable Antivirus Software
 

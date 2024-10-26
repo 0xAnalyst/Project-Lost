@@ -1,7 +1,7 @@
 ---
 title: Wazuh
 tags:
-  - Command and Control
+  - C2
   - Execution
 references:
 - https://securelist.com/miner-campaign-misuses-open-source-siem-agent/114022/

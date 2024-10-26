@@ -1,7 +1,7 @@
 Enum:
   docs: |
     Enumerate users on the system
-Exec:
+Execution:
   docs: |
     Execute commands
 C2:

@@ -1,6 +1,6 @@
-Enumeration:
+Discovery:
   docs: |
-    Enumerate users on the system
+    Enumerate system information including users,
 Execution:
   docs: |
     Execute commands

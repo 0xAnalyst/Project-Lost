@@ -8,7 +8,7 @@
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://0xAnalyst.github.io/Project-Lost)
 # Introduction
 
-Living Off The Land Security Tools is a curated list of enterprise security tools used by adversaries to bypass carry out attacks and go under the radar as they are considered trusted tools. 
+Living Off The Land Security Tools is a curated list of enterprise security tools used by adversaries to carry out attacks and go under the radar as they are considered trusted tools. 
 # Contributions
 
 We welcome contributions submitted as `Pull Requests` with new tool contributions or simply `Issues` for new ideas.

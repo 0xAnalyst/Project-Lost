@@ -11,10 +11,11 @@ files: []
 
 Carbon Black is an enterprise EDR platform used for process monitoring, threat detection, and incident response. When attackers obtain access to the Carbon Black console or API keys, they can abuse these capabilities for remote code execution and defense evasion.
 
-# Abusing Live Response and Sensor Control
+# Abusing Live Response a
 
 ## Description
 Threat actors can use Carbon Black Live Response sessions to execute commands and scripts on endpoints, deploy additional tooling, or collect data. They may also issue commands to stop or uninstall the sensor on targeted hosts, reducing visibility.
+The capability turns Carbonblack into a full blown C2
 
 ## Simulation
 ```text

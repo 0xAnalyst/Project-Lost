@@ -20,7 +20,7 @@ Attackers who compromise Carbon Black servers or obtain API tokens can leverage 
 
 Threat actors have abused Carbon Black in multiple IR cases by:
 
-1. **Using the Live Response feature to run PowerShell and system commands** on endpoints.  
+1. **Using the Live Response feature to execute system commands** on endpoints.  
 2. **Using carbonblack\_client.py or API keys** to enumerate endpoints and deploy malware.  
 3. **Disabling sensors** by pushing configuration changes through the Cb server.  
 4. **Killing carbonblack processes** via valid service control commands.  
@@ -30,5 +30,5 @@ This allows attackers to blend into legitimate SOC workflows while executing ful
 
 ## Simulation
 
-Example: Executing a PowerShell payload via Live Response API
+Example: Executing a commandline payload via Live Response API
 
